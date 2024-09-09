@@ -1,0 +1,47 @@
+.programs-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.programs-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.programs-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.program-card {
+    background-color: #f9f9f9;
+    border-radius: 15px; 
+    padding: 20px;
+    margin: 10px;
+    width: 250px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s; 
+}
+
+.program-card:hover {
+    transform: scale(1.05); 
+}
+
+.program-card img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-bottom: 10px; 
+}
+
+.program-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.program-card p {
+    font-size: 1rem;
+    color: #555; 
+}
