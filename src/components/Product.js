@@ -6,13 +6,13 @@ const products = [
     title: 'Mini Website + E-Broucher',
     description: 'Inspire your client. Digitally',
     buttonText: 'KNOW MORE',
-    imageUrl: require('../assets/images/1.jpg'), // Proper path to img1
+    imageUrl: require('../assets/images/1.jpg'), 
   },
   {
     title: 'Digital Event Card',
     description: 'Smart, Waste-Free Weddings',
     buttonText: 'KNOW MORE',
-    imageUrl: require('../assets/images/2.jpg'), // Proper path to img2
+    imageUrl: require('../assets/images/2.jpg'), 
   },
   {
     title: 'Digital Company Profile',
