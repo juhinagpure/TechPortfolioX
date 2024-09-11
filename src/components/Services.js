@@ -26,8 +26,8 @@ const OurServices = () => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry, index) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add("visible"); // Add 'visible' class for animation
-          entry.target.style.transitionDelay = `${index * 0.4}s`; // Increased delay for each card
+          entry.target.classList.add("visible"); 
+          entry.target.style.transitionDelay = `${index * 0.4}s`; 
         }
       });
     }, options);
