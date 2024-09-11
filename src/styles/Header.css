@@ -1,4 +1,4 @@
-.header {
+/* .header {
     color: black;
   }
   
@@ -25,4 +25,73 @@
   .menu li:hover {
     color: #ffcc00;
   }
-  
+   */
+
+   /* Header Styles */
+.header {
+  color: black;
+}
+
+.contact-info {
+  text-align: left;
+  padding-top: 10px;
+  font-size: 15px;
+  background-color: #004d40;
+  height: 30px;
+  color: white;
+}
+
+/* Menu Styles */
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.menu li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  color: #ffcc00;
+}
+
+/* Hamburger Styles */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    text-align: center;
+    z-index: 10;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar {
+    position: relative;
+  }
+}

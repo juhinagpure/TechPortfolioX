@@ -6,7 +6,7 @@ import OurServices from "./components/Services";
 import Products from "./components/Product"; 
 import Programs from "./components/Programs"; 
 import Portfolio from "./components/Portfolio"; 
-import ClientSection from "./components/ClientSection";
+import ClientSection from "./components/clientSection";
 
 
 function App() {
