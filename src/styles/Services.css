@@ -56,16 +56,16 @@
     opacity: 1; 
     transform: translateY(0); 
 }
-/* Services Responsive Styles */
+
 @media only screen and (max-width: 1024px) {
     .services-grid {
-        grid-template-columns: repeat(2, 1fr); /* Two columns on medium screens */
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 
 @media only screen and (max-width: 600px) {
     .services-grid {
-        grid-template-columns: 1fr; /* Single column on small screens */
+        grid-template-columns: 1fr; 
     }
 
     .service-card {
