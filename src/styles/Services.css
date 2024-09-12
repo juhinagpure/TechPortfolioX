@@ -5,13 +5,15 @@
 .services-container {
     height: 100%;
     overflow-y: auto;
-    padding: 20px;
+    padding: 100px;
     background-color: rgba(0, 0, 0, 0.89);
     text-align: center;
     color: black;
 }
 .service{
     color: white;
+    margin-top: -40px;
+    margin-bottom: 40px;
 }
 
 .services-grid {
@@ -26,7 +28,7 @@
     text-align: center;
     height: 200px;
     background-color: #fff;
-    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    transition: transform 0.8s, box-shadow 0.3s, background-color 0.3s;
     border-radius: 8px;
     position: relative; 
     z-index: 1; 
@@ -59,7 +61,7 @@
 
 @media only screen and (max-width: 1024px) {
     .services-grid {
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(1, 1fr); 
     }
 }
 

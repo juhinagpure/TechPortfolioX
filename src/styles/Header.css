@@ -1,35 +1,11 @@
-/* .header {
-    color: black;
-  }
-  
-  .contact-info {
-    text-align: left;
-    padding-top: 10px;
-    font-size: 15px;
-    background-color: #004d40;
-    height: 30px;
-    color: white;
-  }
-  
-  .menu {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-  }
-  
-  .menu li {
-    margin: 0 15px;
-    cursor: pointer;
-  }
-  
-  .menu li:hover {
-    color: #ffcc00;
-  }
-   */
-
-   /* Header Styles */
+/* Header Styles */
 .header {
-  color: black;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 0 0 -60px;
+  background-color: #fff;
+  
+
 }
 
 .contact-info {
@@ -46,6 +22,7 @@
   display: flex;
   justify-content: center;
   list-style: none;
+  margin-left: -20px;
 }
 
 .menu li {
@@ -62,8 +39,10 @@
   display: none;
   font-size: 30px;
   cursor: pointer;
-  padding: 10px;
+  padding: 30px;
+  
 }
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -94,4 +73,23 @@
   .navbar {
     position: relative;
   }
+}
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Align logo to the left and menu container to the right */
+  align-items: center;
+  margin-left: 10px;
+}
+
+.logo-container {
+  /* Add any necessary styles for the logo */
+}
+
+.menu-container {
+  /* Add any necessary styles for the menu container */
+}
+
+.logo {
+  width: 60px; /* Set the width of the logo */
+  height: auto; /* Maintain aspect ratio */
 }

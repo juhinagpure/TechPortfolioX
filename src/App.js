@@ -7,6 +7,7 @@ import Products from "./components/Product";
 import Programs from "./components/Programs"; 
 import Portfolio from "./components/Portfolio"; 
 import ClientSection from "./components/clientSection";
+import TeamSection from "./components/Team";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Programs/>
       <Portfolio/>
       <ClientSection />
+      <TeamSection/>
       
     </div>
   );

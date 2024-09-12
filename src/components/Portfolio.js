@@ -9,10 +9,8 @@ const portfolioItems = [
   { id: 4, image: require('../assets/images/vibroxx.jpg'), title: 'Vibroxx' },
   { id: 5, image: require('../assets/images/dashboard.png'), title: 'Dashboard' },
   { id: 6, image: require('../assets/images/mobile.jpg'), title: 'Mobile Enabled' },
-  { id: 6, image: require('../assets/images/scentwala.jpg'), title: 'scentwala' },
-  { id: 6, image: require('../assets/images/visual.jpg'), title: 'Visual' },
-
-
+  { id: 7, image: require('../assets/images/scentwala.jpg'), title: 'Scentwala' },
+  { id: 8, image: require('../assets/images/visual.jpg'), title: 'Visual' }
 ];
 
 const Portfolio = () => {
