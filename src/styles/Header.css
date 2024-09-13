@@ -2,10 +2,9 @@
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 0 0 -60px;
+  padding-bottom: -20px;
   background-color: #fff;
   
-
 }
 
 .contact-info {
@@ -15,6 +14,7 @@
   background-color: #004d40;
   height: 30px;
   color: white;
+  padding-left: 90px;
 }
 
 /* Menu Styles */
@@ -39,11 +39,9 @@
   display: none;
   font-size: 30px;
   cursor: pointer;
-  padding: 30px;
+  padding: -10px;
   
 }
-
-
 /* Responsive Styles */
 @media (max-width: 768px) {
   .menu {
@@ -79,6 +77,8 @@
   justify-content: space-between; /* Align logo to the left and menu container to the right */
   align-items: center;
   margin-left: 10px;
+  width: 80%;
+  margin: 20 auto;
 }
 
 .logo-container {
@@ -92,4 +92,5 @@
 .logo {
   width: 60px; /* Set the width of the logo */
   height: auto; /* Maintain aspect ratio */
+  padding-left: 90px;
 }

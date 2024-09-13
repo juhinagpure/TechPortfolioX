@@ -1,24 +1,23 @@
-import React from 'react';
+import React from "react";
 import "../styles/Product.css";
 
 const products = [
   {
-    title: 'Mini Website + E-Broucher',
-    description: 'Inspire your client. Digitally',
-    buttonText: 'KNOW MORE',
-    imageUrl: require('../assets/images/1.jpg'), 
+    title: "Mini Website + E-Broucher",
+    buttonText: "KNOW MORE",
+    imageUrl: require("../assets/images/1.jpg"),
   },
   {
-    title: 'Digital Event Card',
-    description: 'Smart, Waste-Free Weddings',
-    buttonText: 'KNOW MORE',
-    imageUrl: require('../assets/images/2.jpg'), 
+    title: "Digital Event Card",
+
+    buttonText: "KNOW MORE",
+    imageUrl: require("../assets/images/2.jpg"),
   },
   {
-    title: 'Digital Company Profile',
-    description: 'Your End-to-End',
-    buttonText: 'DOWNLOAD',
-    imageUrl: require('../assets/images/3.jpg'), 
+    title: "Digital Company Profile",
+
+    buttonText: "DOWNLOAD",
+    imageUrl: require("../assets/images/3.jpg"),
   },
 ];
 
