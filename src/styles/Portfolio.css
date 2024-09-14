@@ -32,7 +32,7 @@ Styling for the overall Portfolio section
   padding: 100px;
 }
 
-/* Portfolio item container */
+
 .portfolio-item {
   position: relative;
   overflow: hidden;
@@ -51,7 +51,7 @@ Styling for the overall Portfolio section
   transform: scale(1.1);
 }
 
-/* Overlay that appears on hover */
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -71,7 +71,7 @@ Styling for the overall Portfolio section
   margin: 10px 0;
 }
 
-/* Styling for the 'View All' button */
+
 .view-all {
   background-color: #ffcc00;
   margin: 0 10px;
@@ -83,7 +83,7 @@ Styling for the overall Portfolio section
   font-weight: bold;
 }
 
-/* Responsive design: Adapt layout for smaller screens */
+
 @media (max-width: 1024px) {
   .portfolio-item {
     width: calc(50% - 20px);
@@ -103,7 +103,7 @@ Styling for the overall Portfolio section
     margin-bottom: 10px;
   }
 }
-/* Styling for the overall Portfolio section */
+
 .portfolio-section {
   text-align: center;
   padding: 40px;
@@ -142,7 +142,7 @@ Styling for the overall Portfolio section
   padding: 50px;
 }
 
-/* Portfolio item container */
+
 .portfolio-item {
   position: relative;
   overflow: hidden;
@@ -159,7 +159,7 @@ Styling for the overall Portfolio section
   transform: scale(1.1);
 }
 
-/* Overlay that appears on hover */
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -179,7 +179,7 @@ Styling for the overall Portfolio section
   margin: 10px 0;
 }
 
-/* Styling for the 'View All' button */
+
 .view-all {
   background-color: #ffcc00;
   margin: 0 10px;
@@ -194,14 +194,14 @@ Styling for the overall Portfolio section
  background-color: white;
 }
 
-/* Responsive design: Adapt layout for smaller screens */
+
 @media (max-width: 1024px) {
   .portfolio-item {
     width: calc(50% - 20px);
   }
   
   .portfolio-grid {
-    padding: 20px; /* Reduce padding for medium screens */
+    padding: 20px; 
   }
 }
 
@@ -211,7 +211,7 @@ Styling for the overall Portfolio section
   }
 
   .portfolio-grid {
-    padding: 10px; /* Further reduce padding for small screens */
+    padding: 10px; 
   }
 
   .portfolio-categories {

@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/Team.css";
-import profileImage from '../assets/images/tej.png'; // Replace with actual image path
+import profileImage from '../assets/images/tej.png'; 
 
 const TeamSection = () => {
   return (
