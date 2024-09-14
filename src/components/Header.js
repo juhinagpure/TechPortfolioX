@@ -15,9 +15,9 @@ const Header = () => {
         <span>📞 +91 89566 10799 | ✉ hr@teztecch.com</span>
       </div>
       <nav className="navbar">
-      <div className="logo-container">
-        <img src={logoImage} alt="TezTech Logo" className="logo" />
-      </div>
+        <div className="logo-container">
+          <img src={logoImage} alt="TezTech Logo" className="logo" />
+        </div>
         <div className="hamburger" onClick={toggleMenu}>
           &#9776;
         </div>
