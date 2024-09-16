@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Header.css";
-import logoImage from '../assets/images/tez-logo.png';
+import logoImage from "../assets/images/tez-logo.png";
+import { Mail, PhoneCall } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,13 +12,20 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="contact-info">
-        <span>📞 +91 89566 10799 | ✉ hr@teztecch.com</span>
+      <div className="contact-container">
+        <div className="contact-info">
+          <div className="contact">
+            <PhoneCall size={16} />
+            <span>+91 89566 10799</span>
+          </div>
+          <div className="contact">
+            <Mail size={16} />
+            <span>hr@teztecch.com</span>
+          </div>
+        </div>
       </div>
       <nav className="navbar">
-        <div className="logo-container">
-          <img src={logoImage} alt="TezTech Logo" className="logo" />
-        </div>
+        <img src={logoImage} alt="TezTech Logo" className="logo" />
         <div className="hamburger" onClick={toggleMenu}>
           &#9776;
         </div>

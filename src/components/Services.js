@@ -2,15 +2,21 @@ import React, { useEffect } from "react";
 import "../styles/Services.css";
 
 const services = [
-  { name: "Website Development", icon: "/images/services/Website-Design.png",  },
-  { name: "Mobile App Development", icon: "/images/services/Service-Icons-02.png" },
+  { name: "Website Development", icon: "/images/services/Website-Design.png" },
+  {
+    name: "Mobile App Development",
+    icon: "/images/services/Service-Icons-02.png",
+  },
   { name: "Digital Marketing", icon: "/images/services/Service-Icons-03.png" },
   { name: "Graphics Designing", icon: "/images/services/Service-Icons-04.png" },
   { name: "SMS Marketing", icon: "/images/services/Service-Icons-05.png" },
   { name: "Animated Videos", icon: "/images/services/Service-Icons-06.png" },
   { name: "Email Marketing", icon: "/images/services/Service-Icons-07.png" },
   { name: "Whatsapp Marketing", icon: "/images/services/Service-Icons-08.png" },
-  { name: "Software Development", icon: "/images/services/Services-Icon-09.png" },
+  {
+    name: "Software Development",
+    icon: "/images/services/Services-Icon-09.png",
+  },
   { name: "Online PR", icon: "/images/services/Services-Icon-10.png" },
   { name: "Ecommerce", icon: "/images/services/Services-Icon-11.png" },
 ];
@@ -26,8 +32,8 @@ const OurServices = () => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry, index) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add("visible"); 
-          entry.target.style.transitionDelay = `${index * 0.4}s`; 
+          entry.target.classList.add("visible");
+          entry.target.style.transitionDelay = `${index * 0.4}s`;
         }
       });
     }, options);
@@ -54,8 +60,12 @@ const OurServices = () => {
               service.highlighted ? "highlighted" : ""
             }`}
           >
-          <img className="service-icon" src={service.icon} alt={service.name} />
-            
+            <img
+              className="service-icon"
+              src={service.icon}
+              alt={service.name}
+            />
+
             <h3>{service.name}</h3>
           </div>
         ))}
