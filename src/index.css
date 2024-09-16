@@ -1,8 +1,8 @@
-/* Global Styles */
+
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  overflow: auto; /* Ensure scrolling is enabled */
+  overflow: auto;
 }
 
 * {
@@ -10,5 +10,5 @@ body {
 }
 
 .about-us {
-  min-height: 100vh; /* Ensure it takes at least the full viewport height */
+  min-height: 100vh;
 }
