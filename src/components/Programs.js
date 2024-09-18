@@ -44,22 +44,30 @@ const Programs = () => {
       <h2>Our Programs</h2>
       <div className="programs-grid">
         <div className="program-card">
+         <div className="program-card1">
           <img src={eventsImage} alt="Teztecch Events" />
+          </div>
           <h3>Teztecch Events</h3>
           <p>Exciting tech conferences, workshops, and hackathons for innovation.</p>
         </div>
         <div className="program-card">
+          <div className="program-card1">
           <img src={communityIcon} alt="Teztecch Community" />
+          </div>
           <h3>Teztecch Community</h3>
           <p>Teztecch Community: Where innovative and tech-savvy minds connect and collaborate.</p>
         </div>
         <div className="program-card">
+          <div className="program-card1">
           <img src={shootsIcon} alt="Teztecch Shoots" />
+          </div>
           <h3>Teztecch Shoots</h3>
           <p>Capturing tech trends and innovations through stunning visual content.</p>
         </div>
         <div className="program-card">
+        <div className="program-card1">
           <img src={internshipIcon} alt="Teztecch Internshala" />
+          </div>
           <h3>Teztecch Internshala</h3>
           <p>Bridging the gap between tech students and industry with meaningful internships.</p>
         </div>

@@ -1,0 +1,164 @@
+/* OurTeam.css */
+.our-team {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.our-team h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.founder {
+    margin-bottom: 50px;
+}
+
+.founder-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #FFD700; /* Golden border */
+    margin-bottom: 20px;
+}
+
+.founder h3 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.founder p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.founder-description {
+    margin-top: 10px;
+    line-height: 1.6;
+    padding: 0 15px;
+}
+
+.view-gallery {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FFD700; /* Yellow background */
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-gallery:hover {
+    background-color: #ffbf00;
+}
+
+/* Team Member Section */
+.team-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 70px;
+    margin-top: -60px;
+}
+
+.team-member {
+    background-color: #00403d; /* Dark background */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #FFD700; 
+}
+
+.team-member h4 {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.team-member p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.view-all {
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: #FFD700; /* Yellow background */
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-all:hover {
+    background-color: #ffbf00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .founder-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .our-team h2 {
+        font-size: 2rem;
+    }
+
+    .founder h3 {
+        font-size: 1.5rem;
+    }
+
+    .team-section {
+        grid-template-columns: 1fr; 
+    }
+
+    .team-member img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .team-member {
+        padding: 15px;
+    }
+
+    .view-gallery,
+    .view-all {
+        padding: 8px 20px;
+    }
+
+    .our-team h2 {
+        font-size: 1.8rem;
+    }
+
+    .founder h3 {
+        font-size: 1.3rem;
+    }
+}
