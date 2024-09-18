@@ -27,13 +27,18 @@
 }
 
 .program-card h3 {
-  font-size: 1.5rem;
-  margin: 10px 0;
+  padding-top: 10px;
+    display: block;
+    font-size: 19px;
+    font-family: Open Sans;
+    line-height: normal;
+    font-weight: 700;
 }
 
 .program-card p {
-  font-size: 1rem;
-  color: #555;
+  margin-top: 0;
+  margin-bottom: 1rem;
+    
 }
 
 .program-card1 {
@@ -56,3 +61,31 @@
   height: 100%;
   object-fit: cover;  
 }
+@media (max-width: 768px) {
+  .programs-grid {
+    display: block;
+  }
+
+  .program-card {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .programs-section h2 {
+    font-size: 2rem;
+  }
+
+  .program-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .program-card p {
+    font-size: 15px;
+  }
+
+  .program-card1 {
+    width: 80px;
+    height: 80px;
+  }
+}
+
