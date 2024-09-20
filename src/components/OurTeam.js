@@ -21,8 +21,7 @@ const OurTeam = () => {
                 <h3>FOUNDER & DIRECTOR</h3>
                 <p>A Dynamic Girl who represents aspirations & hopes like a phoenix!</p>
                 <p className="founder-description">
-                    A change-agent, rapacious reader, a strategist, a fluent speaker, a promising entrepreneur and above all a passionate Indian. 
-                    Our Founder, Tejaswini Bhandarkar, has developed her marketing, management, and creative expertise over the years...
+                A change-agent , rapacious reader, a strategist, a fluent speaker, a promising entrepreneur and above all a passionate Indian. All these epithets best describe Tejaswini Bhandarkar. Our Founder, Tejaswini Bhandarkar, has developed her marketing, management, and creative expertise over the years. Her extensive understanding and vision of the digital world sets her apart from the competition. After earning her Bachelors and Master’s Degree in Computer Science, she ventured into the world of startup and laid the foundation for her brand- TezTecch. Her aim is to make Teztecch – One Complete Solution Provider for every Brand. She is an amazing Leader and Great Speaker too.
                 </p>
                 <button className="view-gallery">VIEW GALLERY</button>
             </div>

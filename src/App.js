@@ -8,6 +8,7 @@ import Programs from "./components/Programs";
 import Portfolio from "./components/Portfolio"; 
 import ClientSection from "./components/clientSection";
 import OurTeam from "./components/OurTeam";
+import Testimonials from "./components/Testimonials";
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <Portfolio/>
       <ClientSection />
       <OurTeam/>
+      <Testimonials/>
       
     </div>
   );
