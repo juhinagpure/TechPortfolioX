@@ -1,100 +1,130 @@
+@keyframes slideDown {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .team-section {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 20px;
-    padding: 70px;
-    margin-top: -60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 70px;
+  margin-top: -60px;
 }
 
 .team-member {
-    background-color: #00403d; 
-    padding: 20px;
-    border-radius: 5px;
-    color: #fff;
-    text-align: center;
-    transition: transform 0.3s ease;
+  background-color: #00403d;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease;
+  animation: slideDown 0.6s ease-in-out forwards;
+  opacity: 0;
+}
+.team-member.animate {
+  opacity: 1;
 }
 
 .team-member:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
-
 .team-member img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
-    border: 3px solid #FFD700; 
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #ffd700;
 }
 
 .team-member h4 {
-    font-size: 1.25rem;
-    margin-bottom: 5px;
-    font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .team-member p {
-    font-size: 1rem;
-    margin: 0;
+  font-size: 1rem;
+  margin: 0;
 }
 
 .view-all {
-    margin-top: -30px;
-    padding: 10px 30px;
-    background-color:black; 
-    color: #fff;
-    border: none;
-    font-size: 1.1rem;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+  margin-top: -15px;
+  padding: 10px 30px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .view-all:hover {
-    background-color: #ffbf00;
+  background-color: #ffbf00;
 }
 
-
 @media (max-width: 768px) {
-    .founder-image {
-        width: 250px;
-        height: 250px;
-    }
+  .founder-image {
+    width: 250px;
+    height: 250px;
+  }
 
-    .our-team h2 {
-        font-size: 2rem;
-    }
+  .our-team h2 {
+    font-size: 2rem;
+  }
 
-    .founder h3 {
-        font-size: 1.5rem;
-    }
+  .founder h3 {
+    font-size: 1.5rem;
+  }
 
-    .team-section {
-        grid-template-columns: 1fr; 
-    }
+  .team-section {
+    grid-template-columns: 1fr;
+  }
 
-    .team-member img {
-        width: 100px;
-        height: 100px;
-    }
+  .team-member img {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media (max-width: 576px) {
-    .team-member {
-        padding: 15px;
-    }
+  .team-member {
+    padding: 15px;
+  }
 
-    .view-gallery,
-    .view-all {
-        padding: 12px 22px;
-    }
+  .view-gallery,
+  .view-all {
+    padding: 12px 22px;
+  }
 
-    .our-team h2 {
-        font-size: 1.8rem;
-    }
+  .our-team h2 {
+    font-size: 1.8rem;
+  }
 
-    .founder h3 {
-        font-size: 1.3rem;
-    }
+  .founder h3 {
+    font-size: 1.3rem;
+  }
+}
+
+.team-member:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.team-member:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.team-member:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.team-member:nth-child(4) {
+  animation-delay: 0.4s;
 }

@@ -1,55 +1,83 @@
 .testimonials-section {
-    background-color: #f5f5f5;
-    padding: 40px;
+  background-color: #f1c40f;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.testimonials-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.testimonials-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: black;
+}
+
+.testimonials-slider {
+  margin-top: 20px;
+}
+
+.testimonial {
+  padding: 20px;
+
+  border-radius: 10px;
+
+  margin: 10px;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-left: 205px;
+}
+
+.testimonial-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.testimonial-title {
+  font-size: 14px;
+  color: black;
+  margin-top: 5px;
+}
+
+.testimonial-feedback {
+  font-size: 19px;
+  color: black;
+  margin-top: 10px;
+  line-height: 1.5;
+  padding-left: 50px;
+  font-weight: lighter;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials-heading,
+  .testimonials-title {
+    font-size: 16px;
   }
-  
-  .testimonials-section h2 {
-    text-align: center;
-    margin-bottom: 30px;
+
+  .testimonial {
+    width: 100%;
+    padding: 15px;
   }
-  
-  .testimonial-cards {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .testimonial-card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 300px; /* Adjust width as needed */
-  }
-  
+
   .testimonial-image {
-    text-align: center;
-    margin-bottom: 15px;
+    width: 80px;
+    height: 80px;
+    margin-left: 315px;
   }
-  
-  .testimonial-image img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }
-  
-  .testimonial-content {
-    text-align: center;
-  }
-  
-  .testimonial-name {
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .testimonial-title {
-    font-style: italic;
-    margin-bottom: 5px;
-  }
-  
-  .testimonial-company {
-    margin-bottom: 10px;
-  }
-  
-  .testimonial-text {
-    font-size: 14px;
-  }
+}
